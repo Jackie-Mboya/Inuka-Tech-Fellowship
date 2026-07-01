@@ -15,7 +15,7 @@ In busy healthcare environments, waiting until the end of the month to review op
 
 ### How the Analytics Tool Operates (Plain English Breakdown)
 The underlying system runs via a lightweight tracking program that operates on three core principles:
-1. **The Formula Evaluator (Functions):** We created dedicated mathematical rules within the program that accept two pieces of information—the actual patient throughput and the target baseline—and immediately output an efficiency percentage.
+1. **The Formula Evaluator (Functions):** We created dedicated mathematical rules within the program that accept two pieces of information, the actual patient throughput and the target baseline, and immediately output an efficiency percentage.
 2. **The Status Assigner (Conditional Logic):** The system automatically sorts units into clear action categories based on their score: "Normal" for meeting 90% or more of their targets, "Warning" for operational cracks (70%–89%), and "Critical" (below 70%) for immediate intervention.
 3. **The Data Hub & Repeat Engine (Dictionaries & Loops):** We structured our clinic profiles into organized digital file cards. The program uses a rapid automated engine that cycles through every single profile in less than a second, applying the formula, assigning the status, and generating a clean, uniform report.
 
